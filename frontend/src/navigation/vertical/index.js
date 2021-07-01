@@ -30,12 +30,16 @@ tag
 tagVariant
 
 */
-import dashboard from './dashboard'
-import appsAndPages from './apps-and-pages'
-import others from './others'
-import chartsAndMaps from './charts-and-maps'
-import uiElements from './ui-elements'
-import formAndTable from './forms-and-table'
+import admins from '@/navigation/vertical/admin/admins'
+import categories from '@/navigation/vertical/admin/categories'
+import appsAndPages from './admin/apps-and-pages'
+
+// import dashboard from './dashboard'
+// import others from './others'
+// import chartsAndMaps from './charts-and-maps'
+// import uiElements from './ui-elements'
+// import formAndTable from './forms-and-table'
 
 // Array of sections
-export default [...dashboard, ...appsAndPages, ...uiElements, ...formAndTable, ...chartsAndMaps, ...others]
+export default [...admins, ...appsAndPages, ...categories]
+// export default [...admins, ...dashboard, ...appsAndPages, ...uiElements, ...formAndTable, ...chartsAndMaps, ...others]
