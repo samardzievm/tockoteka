@@ -26,6 +26,9 @@ import '@/libs/tour'
 // Axios Mock Adapter
 import '@/@fake-db/db'
 
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin

@@ -1,13 +1,13 @@
 export default [
   {
-    path: '/admin/',
+    path: '/admin',
     name: 'admin',
     // eslint-disable-next-line import/extensions
     component: () => import('@/views/admin/Dashboard'),
   },
   {
     path: '/admin/dashboard',
-    name: 'dashboard-ecommerce',
+    name: 'dashboard',
     component: () => import('@/views/dashboard/ecommerce/Ecommerce.vue'),
   },
 ]
